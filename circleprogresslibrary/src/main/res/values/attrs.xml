@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="CircleProgressView">
+        <attr format="color" name="progressBackgroundColor"/>
+        <attr format="color" name="progressColor"/>
+        <attr format="color" name="progressHeadColor"/>
+        <attr format="color" name="textColor"/>
+
+        <attr format="boolean" name="startupText"/>
+
+        <attr format="dimension" name="progressBackgroundWidth"/>
+        <attr format="dimension" name="progressWidth"/>
+        <attr format="dimension" name="progressHeadRadius"/>
+        <attr format="dimension" name="textSize"/>
+        <attr format="integer" name="maxProgressValue"/>
+        <attr format="integer"  name="progressValue"/>
+    </declare-styleable>
+
+</resources>
