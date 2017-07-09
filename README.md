@@ -22,3 +22,53 @@
 |maxProgressValue   |       最大进度                        |integer   |
 |progressValue      |       当前默认进度                     |integer   |
 
+## 使用
+
+1.在布局文件中添加CircleProgressView并设置相关自定义属性
+
+```xml
+ <com.bolex.circleprogresslibrary.CircleProgressView
+            android:id="@+id/circleProgressView2"
+            android:layout_width="0dp"
+            android:layout_height="100dp"
+            android:layout_weight="1"
+            app:progressBackgroundColor="#F8BBD0"
+            app:progressColor="#536DFE"
+            app:progressHeadColor="#C2185B"
+            app:progressHeadRadius="8dp"
+            app:textColor="#F8BBD0"
+            app:textSize="18px" />
+```
+
+2.java代码
+
+进度获取和设置
+``` java
+mCircleProgressView.getmProgressValue();
+mCircleProgressView1.setProgress(10);
+
+```
+
+颜色和大小等属性配置 Api请参考属性表
+```java
+mCircleProgressView.setmProgressBackgroundColor();
+mCircleProgressView.setmProgressHeadColor();
+mCircleProgressView.setmProgressColor();
+mCircleProgressView.setmProgressHeadColor();
+
+mCircleProgressView.setmTextSize();
+mCircleProgressView.setmTextColor();
+mCircleProgressView.setmStartupText();
+mCircleProgressView.setmProgressWidth();
+
+mCircleProgressView.setmProgressBackgroundWidth()
+mCircleProgressView.setmProgressWidth()
+
+mCircleProgressView.setmMaxProgressValue()
+mCircleProgressView.setmProgressHeadRadius()
+
+
+
+
+```
+
