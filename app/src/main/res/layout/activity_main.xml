@@ -25,18 +25,6 @@
             android:layout_weight="1" />
 
         <com.bolex.circleprogresslibrary.CircleProgressView
-            android:id="@+id/circleProgressView2"
-            android:layout_width="0dp"
-            android:layout_height="100dp"
-            android:layout_weight="1"
-            app:progressBackgroundColor="#F8BBD0"
-            app:progressColor="#536DFE"
-            app:progressHeadColor="#C2185B"
-            app:progressHeadRadius="8dp"
-            app:textColor="#F8BBD0"
-            app:textSize="18px" />
-
-        <com.bolex.circleprogresslibrary.CircleProgressView
             android:id="@+id/circleProgressView3"
             android:layout_width="200dp"
             android:layout_height="200dp"
@@ -47,6 +35,19 @@
             app:progressHeadRadius="5dp"
             app:progressWidth="5dp"
             app:startupText="false" />
+        <com.bolex.circleprogresslibrary.CircleProgressView
+            android:id="@+id/circleProgressView2"
+            android:layout_width="0dp"
+            android:layout_height="100dp"
+            android:layout_weight="1"
+            app:progressBackgroundColor="#F8BBD0"
+            app:progressColor="#536DFE"
+            app:progressHeadColor="#C2185B"
+            app:progressHeadRadius="8dp"
+            app:textColor="#F8BBD0"
+            app:textSize="16px" />
+
+
     </LinearLayout>
 
     <Button
