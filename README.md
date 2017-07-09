@@ -24,7 +24,9 @@
 
 ## 使用
 
-1.在布局文件中添加CircleProgressView并设置相关自定义属性
+
+
+- 在布局文件中添加CircleProgressView并设置相关自定义属性
 
 ```xml
  <com.bolex.circleprogresslibrary.CircleProgressView
@@ -42,14 +44,16 @@
 
 2.java代码
 
-进度获取和设置
+- 进度获取和设置
+
 ``` java
 mCircleProgressView.getmProgressValue();
 mCircleProgressView1.setProgress(10);
 
 ```
 
-颜色和大小等属性配置 Api请参考属性表
+- 颜色和大小等属性配置 Api请参考属性表
+
 ```java
 mCircleProgressView.setmProgressBackgroundColor();
 mCircleProgressView.setmProgressHeadColor();
@@ -67,8 +71,7 @@ mCircleProgressView.setmProgressWidth()
 mCircleProgressView.setmMaxProgressValue()
 mCircleProgressView.setmProgressHeadRadius()
 
-
-
-
 ```
+
+
 
