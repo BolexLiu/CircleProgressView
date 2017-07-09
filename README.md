@@ -58,8 +58,6 @@
             app:textSize="18px" />
 ```
 
-2.java代码
-
 - 进度获取和设置
 
 ``` java
