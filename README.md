@@ -24,7 +24,23 @@
 
 ## 使用
 
+- 添加到你项目的根build.gradle脚本代码中:
+```
+	allprojects {
+		repositories {
+			...
+			maven { url 'https://jitpack.io' }
+		}
+	}
+  ```
 
+- 添加 dependency
+
+  ```
+  	dependencies {
+	         compile 'com.github.BolexLiu:CircleProgressView:v1.0.0'
+	}
+  ```
 
 - 在布局文件中添加CircleProgressView并设置相关自定义属性
 
